@@ -69,8 +69,3 @@ function calculateScores() {
   let round1BlueTotal = round1ScoreBlue - round1DeductionsBlue
   let totalScoreRedDisplay = round1ScoreRed - round1DeductionsRed
 }
-
-// Reset scores function
-function resetScorecard() {
-
-}
