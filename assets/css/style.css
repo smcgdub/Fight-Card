@@ -76,3 +76,46 @@ td {
   background-color: #001bff;
   color: #ffffff;
 }
+
+/* How to score page */
+h4 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+p {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+ol li {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.how_to_score_a_fight_bg {
+  background-color: rgba(0, 0, 0, .70);
+}
+
+#how_to_score_content {
+  max-height: calc(100vh - 100px);
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 991px) {
+  #how_to_score_content {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #how_to_score_content {
+    overflow-y: scroll !important;
+  }
+}
+
+@media screen and (max-height: 570px) {
+  #how_to_score_content {
+    overflow-y: scroll !important;
+  }
+}
