@@ -30,10 +30,20 @@ td {
   color: #ffffff;
 }
 
+#calculate_button:hover {
+  background-color: #ffffff !important;
+  color: #001bff;
+}
+
 #reset_button {
   text-indent: 0px;
   background-color: #ff0000 !important;
   color: #ffffff;
+}
+
+#reset_button:hover {
+  background-color: #ffffff !important;
+  color: #ff0000;
 }
 
 #boxer_red_name_label {
