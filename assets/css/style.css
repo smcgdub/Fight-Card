@@ -7,10 +7,16 @@
 
 body {
   overflow-x: hidden;
+  background-image: url(/assets/images/main_bg_image.jpg) !important;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 table {
   border: 3px solid gray;
+  background-color: #ffffff;
 }
 
 /* Input placeholder text */
