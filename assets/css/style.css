@@ -26,6 +26,14 @@ td {
 /* Action Button */
 #calculate_button {
   text-indent: 0px;
+  background-color: #001bff !important;
+  color: #ffffff;
+}
+
+#reset_button {
+  text-indent: 0px;
+  background-color: #ff0000 !important;
+  color: #ffffff;
 }
 
 #boxer_red_name_label {
@@ -34,6 +42,16 @@ td {
 }
 
 #boxer_blue_name_label {
+  background-color: #001bff;
+  color: #ffffff;
+}
+
+#round_score_head_red {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+#round_score_head_blue {
   background-color: #001bff;
   color: #ffffff;
 }

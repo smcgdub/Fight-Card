@@ -61,11 +61,11 @@
         <table class="table table-hover table-striped">
           <thead>
             <tr>
-              <th scope="col" class="text-start">Round Score - Red</th>
+              <th scope="col" id="round_score_head_red" class="text-start">Round Score - Red</th>
               <th scope="col" class="text-center">Points Deducted</th>
               <th scope="col" class="text-center">Round</th>
               <th scope="col" class="text-center">Points Deducted</th>
-              <th scope="col" class="text-end">Round Score - Blue</th>
+              <th scope="col" id="round_score_head_blue" class="text-end">Round Score - Blue</th>
             </tr>
           </thead>
           <tbody>
@@ -550,10 +550,10 @@
         </table>
         <div class="row">
           <div class="col text-end">
-            <input id="calculate_button" class="btn btn-secondary text-center rounded-0" type="submit"
-              value="Calculate Scores" onclick="calculateScores()">
-            <input id="calculate_button" class="btn btn-danger text-center rounded-0" type="submit"
-              value="Reset Scorecard" onclick="resetScorecard()">
+            <input id="calculate_button" class="btn text-center rounded-0" type="submit" value="Calculate Scores"
+              onclick="calculateScores()">
+            <input id="reset_button" class="btn btn-danger text-center rounded-0" type="submit" value="Reset Scorecard"
+              onclick="resetScorecard()">
           </div>
         </div>
       </div>
