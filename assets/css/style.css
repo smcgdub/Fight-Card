@@ -9,7 +9,16 @@ body {
   overflow-x: hidden;
 }
 
+table {
+  border: 3px solid gray;
+}
+
 /* Input placeholder text */
 input{
   text-indent: 10px;
+}
+
+/* Table */
+td {
+  padding: 4px !important;
 }
