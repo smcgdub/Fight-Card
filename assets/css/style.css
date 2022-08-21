@@ -8,3 +8,8 @@
 body {
   overflow-x: hidden;
 }
+
+/* Input placeholder text */
+input{
+  text-indent: 10px;
+}
