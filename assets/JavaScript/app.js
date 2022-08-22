@@ -97,3 +97,8 @@ function calculateScores() {
   const totalScoreBlueUI = document.getElementById("total_score_blue").value = allBlueRoundsScore - allBlueRoundsDeductions
   const totalDeductionsBlueUI = document.getElementById("total_deductions_blue").value = allBlueRoundsDeductions
 }
+
+// Bell sound on page reload
+window.onload = function () {
+  document.getElementById("my_audio").play();
+}
