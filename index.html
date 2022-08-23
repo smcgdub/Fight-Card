@@ -614,8 +614,8 @@
           </table>
         </div>
       </div>
+      <!-- Winning boxer -->
       <div class="row">
-        <!-- Winning boxer -->
         <div class="col-12 text-center">
           <div class="input-group mb-3">
             <!-- <span id="winner_is_label" class="input-group-text rounded-0">Winner:</span> -->
@@ -626,14 +626,45 @@
         </div>
       </div>
       <!-- Action buttons -->
+
+
+
+      <!-- Boxers names input -->
       <div class="row">
+        <!-- Blue boxer name input -->
+        <div class="col-md-5 col-xs-12">
+          <div class="input-group mb-3">
+            <input id="reset_button" class="btn btn-danger text-center rounded-0" type="submit" value="Reset Scorecard"
+              onclick="document.location.reload()">
+          </div>
+        </div>
+        <!-- Blank space -->
+        <div class="col-md-2 col-xs-0">
+        </div>
+        <!-- Blue boxer name input -->
+        <div class="col-md-5 col-xs-12">
+          <div class="input-group mb-3">
+            <input id="calculate_button" class="btn text-center rounded-0" type="submit" value="Calculate Scores"
+              onclick="calculateScores()">
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- <div class="row">
         <div class="col-12 text-end">
           <input id="calculate_button" class="btn text-center rounded-0 mx-1" type="submit" value="Calculate Scores"
             onclick="calculateScores()">
           <input id="reset_button" class="btn btn-danger text-center rounded-0" type="submit" value="Reset Scorecard"
             onclick="document.location.reload()">
         </div>
-      </div>
+      </div> -->
+
+
+
+
+
     </div>
   </div>
 

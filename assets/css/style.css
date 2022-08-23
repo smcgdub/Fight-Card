@@ -59,6 +59,7 @@ td {
   text-indent: 0px;
   background-color: #001bff !important;
   color: #ffffff;
+  width: 100%;
 }
 
 #calculate_button:hover {
@@ -70,6 +71,7 @@ td {
   text-indent: 0px;
   background-color: #ff0000 !important;
   color: #ffffff;
+  width: 100%;
 }
 
 #reset_button:hover {
