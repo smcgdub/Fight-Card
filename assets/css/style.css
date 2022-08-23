@@ -18,6 +18,12 @@ body {
   background-size: cover;
 }
 
+.main {
+  max-height: calc(100vh - 100px);
+  overflow-y: scroll;
+  /* padding-top: 30px; */
+}
+
 /* Animate CSS */
 .animate__animated.animate__jackInTheBox {
   --animate-duration: 3s;
@@ -107,11 +113,15 @@ ol li {
   font-size: 1.2rem;
 }
 
-/* #winner_is {
-  border: 2px solid #ffffff;
+#winner_is {
+  background-color: #ffffff;
   min-width: 100%;
-} */
+  color: black;
+  padding: 10px 10px;
+  min-height: 2.5rem;
+}
 
+/* Scoring Explained Page */
 .how_to_score_a_fight_bg {
   background-color: rgba(0, 0, 0, .70);
 }
