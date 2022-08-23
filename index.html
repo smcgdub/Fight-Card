@@ -73,7 +73,7 @@
         <div class="input-group mb-3">
           <span id="boxer_red_name_label" class="input-group-text rounded-0" id="basic-addon1">Boxer 1:</span>
           <input id="boxer_red_name_input" type="text" class="form-control rounded-0" placeholder="Enter name"
-            aria-label="boxer-1" aria-describedby="boxer-1">
+            aria-label="boxer_red_name_input" aria-describedby="boxer_red_name_input" required>
         </div>
       </div>
       <!-- Blank space -->
@@ -84,7 +84,7 @@
         <div class="input-group mb-3">
           <span id="boxer_blue_name_label" class="input-group-text rounded-0" id="basic-addon1">Boxer 2:</span>
           <input id="boxer_blue_name_input" type="text" class="form-control rounded-0" placeholder="Enter name"
-            aria-label="boxer-2" aria-describedby="boxer-2">
+            aria-label="boxer-2" aria-describedby="boxer-2" required>
         </div>
       </div>
     </div>
@@ -607,15 +607,26 @@
             </tr>
           </tbody>
         </table>
-        <!-- Action buttons -->
-        <div class="row">
-          <div class="col text-end">
-            <input id="calculate_button" class="btn text-center rounded-0" type="submit" value="Calculate Scores"
-              onclick="calculateScores()">
-            <input id="reset_button" class="btn btn-danger text-center rounded-0" type="submit" value="Reset Scorecard"
-              onclick="document.location.reload()">
-          </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Winning boxer -->
+      <div class="col-12 text-center">
+        <div class="input-group mb-3">
+          <!-- <span id="winner_is_label" class="input-group-text rounded-0">Winner:</span> -->
+          <p id="winner_is"></p>
+          <!-- <input id="winner_is" type="text" class="form-control rounded-0" placeholder="" aria-label="winner_is"
+            aria-describedby="winner_is" disabled> -->
         </div>
+      </div>
+    </div>
+    <!-- Action buttons -->
+    <div class="row">
+      <div class="col-12 text-end">
+        <input id="calculate_button" class="btn text-center rounded-0 mx-1" type="submit" value="Calculate Scores"
+          onclick="calculateScores()">
+        <input id="reset_button" class="btn btn-danger text-center rounded-0" type="submit" value="Reset Scorecard"
+          onclick="document.location.reload()">
       </div>
     </div>
   </div>

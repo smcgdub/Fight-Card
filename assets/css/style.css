@@ -107,6 +107,11 @@ ol li {
   font-size: 1.2rem;
 }
 
+/* #winner_is {
+  border: 2px solid #ffffff;
+  min-width: 100%;
+} */
+
 .how_to_score_a_fight_bg {
   background-color: rgba(0, 0, 0, .70);
 }

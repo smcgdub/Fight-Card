@@ -1,6 +1,7 @@
 // Boxer names inputs
 let boxerRedNameInput = document.getElementById('boxer_red_name_input');
 let boxerBlueNameInput = document.getElementById('boxer_blue_name_input');
+let winnerIs = document.getElementById("winner_is");
 
 // Calculate scores function
 function calculateScores() {
@@ -96,6 +97,30 @@ function calculateScores() {
   const totalDeductionsRedUI = document.getElementById("total_deductions_red").value = allRedRoundsDeductions
   const totalScoreBlueUI = document.getElementById("total_score_blue").value = allBlueRoundsScore - allBlueRoundsDeductions
   const totalDeductionsBlueUI = document.getElementById("total_deductions_blue").value = allBlueRoundsDeductions
+
+  // Winner display logic
+  if (totalScoreRedUI < totalScoreBlueUI) {
+    if (document.getElementById("boxer_blue_name_input").value == "") {
+      winnerIs.innerText = "The blue corner is the winner"
+    } else {
+      winnerIs.innerText = `${boxerBlueNameInput} is the winner!`
+      console.log(winnerIs)
+    }
+  } else {
+    if (document.getElementById("boxer_red_name_input").value == "") {
+      winnerIs.innerText = "The red corner is the winner"
+    } else {
+      winnerIs.innerText = `${boxerRedNameInput} is the winner!`
+      console.log(winnerIs)
+    }
+  }
+
+  // If fight is a draw display logic
+  if (totalScoreRedUI == totalScoreBlueUI) {
+    winnerIs.innerText = "The fight is a draw"
+    console.log(winnerIs)
+  }
+
 }
 
 // Bell sound on page reload
