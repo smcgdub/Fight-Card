@@ -11,7 +11,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
-  background-image: url(/assets/images/main_bg_image.jpg) !important;
+  background-image: url(../images/main_bg_image.jpg) !important;
   background-repeat: no-repeat;
   height: 100vh;
   background-position: center;
