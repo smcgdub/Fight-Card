@@ -1,3 +1,19 @@
+// Limit input fields on score card to 2 numbers only
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('[maxlength]').forEach(input => {
+    input.addEventListener('input', e => {
+      let val = e.target.value,
+        len = +e.target.getAttribute('maxlength');
+      e.target.value = val.slice(0, len);
+    })
+  })
+})
+
+// Bell sound on page reload
+window.onload = function () {
+  document.getElementById("my_audio").play();
+}
+
 // Boxer names inputs
 let boxerRedNameInput = document.getElementById('boxer_red_name_input');
 let boxerBlueNameInput = document.getElementById('boxer_blue_name_input');
@@ -121,9 +137,4 @@ function calculateScores() {
     console.log(winnerIs)
   }
 
-}
-
-// Bell sound on page reload
-window.onload = function () {
-  document.getElementById("my_audio").play();
 }
