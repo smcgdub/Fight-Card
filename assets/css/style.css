@@ -35,7 +35,7 @@ ol li {
 /* Media query to adjust fight card min-width on mobile screens */
 @media screen and (max-width: 992px) {
   .table_container {
-    min-width: 100vw;
+    min-width: 98vw;
   }
 }
 
