@@ -1,4 +1,5 @@
 /*  Global */
+
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
@@ -31,11 +32,19 @@ ol li {
   font-size: 1.2rem;
 }
 
+/* Media query to adjust fight card min-width on mobile screens */
+@media screen and (max-width: 992px) {
+  .table_container {
+    min-width: 100vw;
+  }
+}
+
 /* Animate CSS */
 .animate__animated.animate__jackInTheBox {
   --animate-duration: 3s;
 }
 
+/* Navbar */
 .navbar-toggler {
   border: none;
   padding: 0px;
@@ -72,7 +81,7 @@ td {
   color: #ffffff;
 }
 
-/* Action Button */
+/* Action Buttons */
 #calculate_button {
   text-indent: 0px;
   background-color: #001bff !important;
