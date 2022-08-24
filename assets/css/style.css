@@ -1,5 +1,4 @@
 /*  Global */
-
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
@@ -32,14 +31,20 @@ ol li {
   font-size: 1.2rem;
 }
 
-.main {
-  max-height: calc(100vh - 100px);
-  overflow-y: scroll;
-}
-
 /* Animate CSS */
 .animate__animated.animate__jackInTheBox {
   --animate-duration: 3s;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0px;
+}
+
+/* Fight card page */
+.main {
+  max-height: calc(100vh - 100px);
+  overflow-y: scroll;
 }
 
 /* Input placeholder text */
